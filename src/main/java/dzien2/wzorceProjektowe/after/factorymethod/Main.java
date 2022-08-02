@@ -1,5 +1,9 @@
 package dzien2.wzorceProjektowe.after.factorymethod;
 
+import dzien2.wzorceProjektowe.after.factorymethod.units.Alien;
+import dzien2.wzorceProjektowe.after.factorymethod.units.SectoidFactory;
+import dzien2.wzorceProjektowe.after.factorymethod.units.UnitFactory;
+
 public class Main {
     public static void main(String[] args) {
         UnitFactory sectoidFactory = new SectoidFactory();

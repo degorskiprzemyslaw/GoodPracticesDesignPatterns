@@ -1,10 +1,10 @@
-package dzien2.wzorceProjektowe.after.factorymethod;
+package dzien2.wzorceProjektowe.after.factorymethod.units;
 
 public abstract class Alien {
     private String rank;
     private int stamina;
 
-    public Alien(String rank, int stamina) {
+    protected Alien(String rank, int stamina) {
         this.rank = rank;
         this.stamina = stamina;
     }

@@ -1,4 +1,4 @@
-package dzien2.wzorceProjektowe.after.factorymethod;
+package dzien2.wzorceProjektowe.after.factorymethod.units;
 
 public class SectoidFactory extends UnitFactory{
     @Override
